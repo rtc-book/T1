@@ -15,6 +15,7 @@
 #include "pwm-wrapper.h"
 #include "TimerIRQ.h"
 #include "UART.h"
+#include "Sramps.h"
 
 #ifndef T1_H_
 #define T1_H_
