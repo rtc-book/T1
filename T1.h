@@ -38,7 +38,5 @@ void Aio_InitCI1(MyRio_Aio *CI1);
 void Aio_InitCO0(MyRio_Aio *CO0);
 void Aio_InitCO1(MyRio_Aio *CO1);
 NiFpga_Status	EncoderC_initialize(NiFpga_Session myrio_session, MyRio_Encoder *encC0);
-typedef struct {double xfa; double v; double a; double d;} seg;
-int Sramps(seg *segs, int *iseg, int nseg, int *itime, double T, double *xa);
 
 #endif /* T1_H_ */
